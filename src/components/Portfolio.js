@@ -4,6 +4,7 @@ import Card from "./Card";
 function Portfolio() {
   return (
     <div>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       Portfolio
       <Card projectName="Project 1" />
       <Card projectName="Project 2" />
