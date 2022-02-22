@@ -1,5 +1,7 @@
 // Portfolio component - will be displayed when the Portfolio tab in main nav is clicked
 
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <div className="bg-gray-100 font-sans w-full m-0">
@@ -20,30 +22,30 @@ function Navbar() {
             </div>
 
             <div className="hidden sm:flex sm:items-center">
-              <a
-                href="/"
+              <Link
+                to="/aboutme"
                 className="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4"
               >
                 About Me
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                to="/portfolio"
                 className="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4"
               >
                 Portfolio
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                to="/contact"
                 className="text-gray-800 text-sm font-semibold hover:text-purple-600 mr-4"
               >
                 Contact
-              </a>
-              <a
-                href="/"
+              </Link>
+              <Link
+                to="/resume"
                 className="text-gray-800 text-sm font-semibold hover:text-purple-600"
               >
                 Resume
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -63,30 +65,32 @@ function Navbar() {
 
         <div className="block sm:hidden bg-white border-t-2 py-2">
           <div className="flex flex-col">
-            <a
-              href="/"
+            <Link
+              to="/aboutme"
               className="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
             >
               About Me
-            </a>
-            <a
-              href="/"
+            </Link>
+
+            <Link
+              to="/portfolio"
               className="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
             >
               Portfolio
-            </a>
-            <a
-              href="/"
+            </Link>
+
+            <Link
+              to="/contact"
               className="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
             >
               Contact
-            </a>
-            <a
-              href="/"
+            </Link>
+            <Link
+              to="/"
               className="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
             >
               Resume
-            </a>
+            </Link>
           </div>
         </div>
       </div>

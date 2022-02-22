@@ -2,23 +2,20 @@ import AboutMe from "./components/AboutMe";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
-
-const getMainComponent = (page) => {
-  if (page === "Portfolio") {
-    return <Portfolio />;
-  } else if (page === "AboutMe") {
-    return <AboutMe />;
-  }
-  return <Resume />;
-};
+import Contact from "./components/Contact";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  const currentPage = "AboutMe";
-
   return (
-    <div className="flex flex-col">
+    <div>
       <Navbar />
-      {getMainComponent(currentPage)}
+      <Routes>
+        <Route exact path="/" element={<AboutMe />}></Route>
+        <Route path="/aboutme" element={<AboutMe />}></Route>
+        <Route path="/portfolio" element={<Portfolio />}></Route>
+        <Route path="/resume" element={<Resume />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
     </div>
   );
 }
