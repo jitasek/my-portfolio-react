@@ -1,14 +1,18 @@
 import dancingHouse from "../images/dancingHouse.jpg";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
   return (
     <div className="flex flex-wrap md items-center h-screen">
       <div className="bg-white w-full md:w-1/2 h-screen">
         <div className="mx-32">
-          <h1 className="text-6xl font-bold mt-16">Hey there!</h1>
+          <h1 className="text-6xl font-bold mt-16">&lt;Hey there!&gt;</h1>
 
           {/* country region island */}
-          <div className="flex mt-16 font-light text-gray-500">
+          <div
+            style={{ fontFamily: "Fira Mono" }}
+            className="flex mt-16 font-light text-gray-500"
+          >
             <div className="pr-4">
               <span className="uppercase">Who</span>
               <p className="text-2xl text-gray-900 font-semibold pt-2">
@@ -47,12 +51,18 @@ function AboutMe() {
               It was an enjoyable and inspiring journey which took me to my
               desired destination - web development. I am actively building new
               skills and knowledge every day and I am loving it. Feel free to
-              check some of my starting <a href="/">projects</a>!
+              check some of my starting{" "}
+              <Link className="text-blue-500 text-[#0096a9]" to="/portfolio">
+                projects
+              </Link>
+              .
             </p>
           </div>
 
           <button className="uppercase mt-5 text-sm font-semibold hover:underline">
-            read more
+            <Link className="text-blue-500 text-[#0096a9] " to="/portfolio">
+              check my projects
+            </Link>
           </button>
         </div>
       </div>
