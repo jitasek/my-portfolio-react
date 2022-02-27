@@ -1,6 +1,5 @@
 // Portfolio component - will be displayed when the Portfolio tab in main nav is clicked
 // import Card from "./Card";
-import { Link } from "react-router-dom";
 import planet from "../images/planet.gif";
 import planner from "../images/planner-mockup.png";
 import weather from "../images/weather-dash.png";
