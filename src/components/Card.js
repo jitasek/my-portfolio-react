@@ -1,5 +1,6 @@
 // Card component = subcomponent of the Portfolio component
 import cardImage from "../images/cardimage.jpg";
+import { Link } from "react-router-dom";
 
 function Card({ projectName, desc }) {
   return (
@@ -20,6 +21,16 @@ function Card({ projectName, desc }) {
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             {desc}
           </p>
+          <button className="uppercase mt-5 text-sm font-semibold hover:underline">
+            <Link className="text-blue-500 text-[#0096a9] " to="/portfolio">
+              check my projects
+            </Link>
+          </button>
+          <button className="uppercase mt-5 text-sm font-semibold hover:underline">
+            <Link className="text-blue-500 text-[#0096a9] " to="/portfolio">
+              check my projects
+            </Link>
+          </button>
         </div>
       </a>
     </div>
