@@ -4,6 +4,7 @@ import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/resume" element={<Resume />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
