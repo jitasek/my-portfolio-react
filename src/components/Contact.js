@@ -3,20 +3,30 @@ import EmailValidator from "email-validator";
 //import { useForm, Controller } from "react-hook-form";
 
 function Contact() {
-  let [info, setInfo] = useState("");
+  let [text, setText] = useState("");
   const validateEmail = (e) => {
     console.log("Current email is: ", e.target.value);
     const emailValidator = EmailValidator.validate(e.target.value);
     if (emailValidator === true) {
       console.log("Email is valid.");
-      setInfo("");
+      setText("");
     } else {
-      setInfo("Email not valid. Please enter a valid email.");
-      console.log("Info: ", info);
+      setText("Email not valid. Please enter a valid email.");
+      console.log("Info: ", text);
     }
   };
-  const clearField = () => {
-    setInfo("");
+
+  const validateName = (e) => {
+    const fullName = e.target.value.trim();
+    console.log("Full name entered: ", fullName);
+
+    if (fullName && fullName.length > 0) {
+      console.log("Valid full name.");
+      setText("");
+    } else {
+      setText("Not valid. Please enter a valid full name.");
+      console.log("Info: ", text);
+    }
   };
 
   return (
@@ -36,6 +46,7 @@ function Contact() {
                       type="text"
                       id="formGridCode_card"
                       placeholder="Enter your full name"
+                      onBlur={validateName}
                     />
                   </div>
                 </div>
@@ -51,7 +62,6 @@ function Contact() {
                       id="formGridCode_card"
                       placeholder="Enter your email"
                       onBlur={validateEmail}
-                      onFocus={clearField}
                     />
                   </div>
                 </div>
@@ -65,6 +75,11 @@ function Contact() {
                       placeholder="Enter your message here"
                     ></textarea>
                   </div>
+                </div>
+                <div>
+                  <label className="block mb-1" htmlFor="formGridCode_card">
+                    {text}
+                  </label>
                 </div>
 
                 <button className="w-full h-12 px-6 text-indigo-100 transition-colors duration-150 bg-indigo-700 rounded-lg focus:shadow-outline hover:bg-indigo-800">
