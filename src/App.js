@@ -11,10 +11,10 @@ function App() {
       {/* Using routes instead of conditional rendering */}
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<AboutMe />}></Route>
         <Route path="/aboutme" element={<AboutMe />}></Route>
         <Route path="/portfolio" element={<Portfolio />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/" element={<AboutMe />}></Route>
       </Routes>
       <Footer />
     </div>
