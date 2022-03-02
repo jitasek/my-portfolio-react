@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/aboutme/static/css/main.97cc5acd.css",
-    "main.js": "/my-portfolio-react/aboutme/static/js/main.bc250c2c.js",
-    "static/media/POT-login.png": "/my-portfolio-react/aboutme/static/media/POT-login.5ceb9708dcd0793d06ce.png",
-    "static/media/dancingHouse.jpg": "/my-portfolio-react/aboutme/static/media/dancingHouse.b983b7573cff3279b417.jpg",
-    "static/media/planet.gif": "/my-portfolio-react/aboutme/static/media/planet.c3c56f7dc07d1e7620da.gif",
-    "static/media/weather-dash.png": "/my-portfolio-react/aboutme/static/media/weather-dash.cb3667fff05e6812c71d.png",
-    "static/media/planner-mockup.png": "/my-portfolio-react/aboutme/static/media/planner-mockup.d7345b6cb861370e77b5.png",
-    "static/media/tech-blog-dashboard.png": "/my-portfolio-react/aboutme/static/media/tech-blog-dashboard.6f1f5632bf7da77c5647.png",
-    "static/media/note-taker-dashboard.png": "/my-portfolio-react/aboutme/static/media/note-taker-dashboard.a4bf1b040cd075c80ef3.png",
-    "index.html": "/my-portfolio-react/aboutme/index.html",
-    "main.97cc5acd.css.map": "/my-portfolio-react/aboutme/static/css/main.97cc5acd.css.map",
-    "main.bc250c2c.js.map": "/my-portfolio-react/aboutme/static/js/main.bc250c2c.js.map"
+    "main.css": "/my-portfolio-react/static/css/main.97cc5acd.css",
+    "main.js": "/my-portfolio-react/static/js/main.05d46848.js",
+    "static/media/POT-login.png": "/my-portfolio-react/static/media/POT-login.5ceb9708dcd0793d06ce.png",
+    "static/media/dancingHouse.jpg": "/my-portfolio-react/static/media/dancingHouse.b983b7573cff3279b417.jpg",
+    "static/media/planet.gif": "/my-portfolio-react/static/media/planet.c3c56f7dc07d1e7620da.gif",
+    "static/media/weather-dash.png": "/my-portfolio-react/static/media/weather-dash.cb3667fff05e6812c71d.png",
+    "static/media/planner-mockup.png": "/my-portfolio-react/static/media/planner-mockup.d7345b6cb861370e77b5.png",
+    "static/media/tech-blog-dashboard.png": "/my-portfolio-react/static/media/tech-blog-dashboard.6f1f5632bf7da77c5647.png",
+    "static/media/note-taker-dashboard.png": "/my-portfolio-react/static/media/note-taker-dashboard.a4bf1b040cd075c80ef3.png",
+    "index.html": "/my-portfolio-react/index.html",
+    "main.97cc5acd.css.map": "/my-portfolio-react/static/css/main.97cc5acd.css.map",
+    "main.05d46848.js.map": "/my-portfolio-react/static/js/main.05d46848.js.map"
   },
   "entrypoints": [
     "static/css/main.97cc5acd.css",
-    "static/js/main.bc250c2c.js"
+    "static/js/main.05d46848.js"
   ]
 }
