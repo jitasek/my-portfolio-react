@@ -6,9 +6,10 @@ function AboutMe() {
     <div className="flex flex-wrap md items-center h-screen">
       <div className="bg-white w-full md:w-1/2 h-screen">
         <div className="mx-32">
+          {/* heading */}
           <h1 className="text-6xl font-bold mt-16">&lt;Hey there!&gt;</h1>
 
-          {/* country region island */}
+          {/* subheading */}
           <div
             style={{ fontFamily: "Fira Mono" }}
             className="flex mt-16 font-light text-gray-500"
@@ -33,7 +34,7 @@ function AboutMe() {
             </div>
           </div>
 
-          {/* description */}
+          {/* short bio */}
           <div className="description w-full sm: md:w-2/3 mt-16 text-gray-500 text-sm">
             <p>
               I am Jitka and I love to improve people's lives through

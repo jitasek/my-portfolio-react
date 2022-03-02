@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="bg-gray-100 font-sans w-full m-0">
-      <div className="bg-white shadow">
+      <div style={{ fontFamily: "Fira Mono" }} className="bg-white shadow">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
             {/* <div>
@@ -43,12 +43,14 @@ function Navbar() {
               >
                 Contact
               </Link>
-              <Link
-                to="/resume"
-                className="text-gray-800 text-sm font-semibold hover:text-purple-600"
+              <a
+                href="Jitka-Moreira_web_dev.pdf"
+                download="Jitka-Moreira_web_dev.pdf"
               >
-                Resume
-              </Link>
+                <button className="text-gray-800 text-sm font-semibold hover:text-purple-600">
+                  Resume
+                </button>
+              </a>
             </div>
           </div>
 
@@ -88,12 +90,17 @@ function Navbar() {
             >
               Contact
             </Link>
-            <Link
-              to="/"
-              className="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
+            <a
+              href="Jitka-Moreira_web_dev.pdf"
+              download="Jitka-Moreira_web_dev.pdf"
             >
-              Resume
-            </Link>
+              <button
+                button
+                className="text-gray-800 text-sm font-semibold hover:text-purple-600 mb-1"
+              >
+                Resume
+              </button>
+            </a>
           </div>
         </div>
       </div>

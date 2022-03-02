@@ -4,6 +4,7 @@ import EmailValidator from "email-validator";
 
 function Contact() {
   let [text, setText] = useState("");
+
   const validateEmail = (e) => {
     console.log("Current email is: ", e.target.value);
     const emailValidator = EmailValidator.validate(e.target.value);
