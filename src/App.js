@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
+      {/* Using routes instead of conditional rendering */}
       <Navbar />
       <Routes>
         <Route exact path="/" element={<AboutMe />}></Route>
