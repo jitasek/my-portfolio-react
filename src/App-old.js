@@ -1,9 +1,9 @@
-import AboutMe from "./components/AboutMe";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import AboutMe from "./components/AboutMeOld";
+import Navbar from "./components/NavbarOld";
+import Portfolio from "./components/PortfolioOld";
+import Contact from "./components/ContactOld";
 import { Route, Routes } from "react-router-dom";
-import Footer from "./components/Footer";
+import Footer from "./components/FooterOld";
 
 function App() {
   return (
