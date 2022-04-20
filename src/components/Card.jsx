@@ -1,7 +1,6 @@
 import React from "react";
-// import POTImg from "../assets/POT-login.png";
 
-const Card = ({ hrefWeb, hrefGit, cardImg, imgAlt, projectType }) => {
+const Card = ({ hrefWeb, hrefGit, cardImg, projectType }) => {
   return (
     <div
       style={{ backgroundImage: `url(${cardImg})` }}
