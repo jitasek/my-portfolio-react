@@ -13,7 +13,15 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#291b24] text-gray-300">
       <div>
-        <img src={Logo} alt="Jitka Moreira logo" style={{ width: "70px" }} />
+        <button>
+          <Link to="home" smooth={true} duration={500}>
+            <img
+              src={Logo}
+              alt="Jitka Moreira logo"
+              style={{ width: "70px" }}
+            />
+          </Link>
+        </button>
       </div>
 
       {/* Main nav menu */}
@@ -93,7 +101,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0966c2]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/jitka-moreira-26838a73/"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -101,7 +109,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/jitasek"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -109,7 +117,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#fece6c]">
             <a
               className="flex justify-between items-center w-full text-[#333333]"
-              href="/"
+              href="mailto:jitka.moreira@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -117,7 +125,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-[#333333]"
-              href="/"
+              href="Jitka-Moreira_web_dev.pdf"
+              download="Jitka-Moreira_web_dev.pdf"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
