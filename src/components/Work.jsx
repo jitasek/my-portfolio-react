@@ -5,7 +5,7 @@ import WeatherImg from "../assets/weather-dash.png";
 import PlanetImg from "../assets/planet.gif";
 import PlannerImg from "../assets/planner-mockup.png";
 import TechBlogImg from "../assets/tech-blog-dashboard.png";
-import NoteTakerImg from "../assets/note-taker-dashboard.png";
+//import NoteTakerImg from "../assets/note-taker-dashboard.png";
 import WithUImg from "../assets/withu.png";
 
 const cardProps = [
