@@ -27,6 +27,12 @@ const About = () => {
               (re)design, web content creation, e2e management of digital
               projects, creating my own product in an agile way.{" "}
             </p>
+            <br />
+            <p>
+              It was an enjoyable and inspiring journey which took me to my
+              desired destination - web development. I am actively building new
+              skills and knowledge every day and I am loving it.
+            </p>
           </div>
         </div>
       </div>
