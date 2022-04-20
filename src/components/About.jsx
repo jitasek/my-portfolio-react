@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am a fan of a seamless user experience and love to improve
+              I am a fan of seamless user experience and love to improve
               people's lives through technology.{" "}
             </p>
             <br />
