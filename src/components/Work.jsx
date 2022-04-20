@@ -1,6 +1,66 @@
 import React from "react";
-import WeatherImg from "../assets/weather-dash.png";
+import Card from "./Card";
 import POTImg from "../assets/POT-login.png";
+import WeatherImg from "../assets/weather-dash.png";
+import PlanetImg from "../assets/planet.gif";
+import PlannerImg from "../assets/planner-mockup.png";
+import TechBlogImg from "../assets/tech-blog-dashboard.png";
+import NoteTakerImg from "../assets/note-taker-dashboard.png";
+import WithUImg from "../assets/withu.png";
+
+const cardProps = [
+  {
+    hrefWeb: "https://intense-lowlands-65258.herokuapp.com/",
+    hrefGit: "https://github.com/JenBerlin/Pack-On-Track/tree/dev",
+    cardImg: POTImg,
+    imgAlt: "pack on track homepage",
+    projectType: "Bootstrap CSS, JS, Express.js, Sequelize, MySQL",
+  },
+  {
+    hrefWeb: "https://jitasek.github.io/weather-dashboard-app/",
+    hrefGit: "https://github.com/jitasek/weather-dashboard-app",
+    cardImg: WeatherImg,
+    imgAlt: "weather dashboard page",
+    projectType: "Bootstrap CSS, jQuery, JS, Server-Side API",
+  },
+  {
+    hrefWeb: "https://jitasek.github.io/day-planner/",
+    hrefGit: "https://github.com/jitasek/day-planner",
+    cardImg: PlannerImg,
+    imgAlt: "day planner dashboard",
+    projectType: "JS, Moment.js, jQuery, local storage",
+  },
+  {
+    hrefWeb: "https://jitasek.github.io/carbon-down/",
+    hrefGit: "https://github.com/jitasek/carbon-down",
+    cardImg: PlanetImg,
+    imgAlt: "planet earth animation",
+    projectType: "Bulma CSS, JS, jQuery, local storage ",
+  },
+  {
+    hrefWeb: "https://aqueous-tundra-23493.herokuapp.com/",
+    hrefGit: "https://github.com/jitasek/tech-blog",
+    cardImg: TechBlogImg,
+    imgAlt: "tech blog dashboard",
+    projectType:
+      "Express.js API, sessions, handlebars, mySQL, Sequelize, bcrypt",
+  },
+  //   {
+  //     hrefWeb: "https://jitkas-note-taker.herokuapp.com/",
+  //     hrefGit: "https://github.com/jitasek/note-taker",
+  //     cardImg: NoteTakerImg,
+  //     imgAlt: "note taker app",
+  //     projectType: "Express.js, npm, fs, uuid, API",
+  //   },
+  {
+    hrefWeb: "https://mysterious-springs-56819.herokuapp.com/",
+    hrefGit: "https://github.com/Amir-Fard2025/WithU",
+    cardImg: WithUImg,
+    imgAlt: "with u app homepage",
+    projectType:
+      "Material UI, React, JS, Node.js, Express.js, GraphQL, MongoDB, Mongoose",
+  },
+];
 
 const Work = () => {
   return (
@@ -16,162 +76,10 @@ const Work = () => {
 
         {/* Container for all my projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* 1 Project container - grid item */}
-          <div
-            style={{ backgroundImage: `url(${POTImg})` }}
-            className="shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto mystyle-div"
-          >
-            <div>
-              {/* Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
-                </span>
-                <div className="pt-8 text-center">
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* 1 Project container - grid item */}
-          <div
-            style={{ backgroundImage: `url(${WeatherImg})` }}
-            className="shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto mystyle-div"
-          >
-            <div>
-              {/* Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
-                </span>
-                <div className="pt-8 text-center">
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* 1 Project container - grid item */}
-          <div
-            style={{ backgroundImage: `url(${WeatherImg})` }}
-            className="shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto mystyle-div"
-          >
-            <div>
-              {/* Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
-                </span>
-                <div className="pt-8 text-center">
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* 1 Project container - grid item */}
-          <div
-            style={{ backgroundImage: `url(${WeatherImg})` }}
-            className="shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto mystyle-div"
-          >
-            <div>
-              {/* Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
-                </span>
-                <div className="pt-8 text-center">
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* 1 Project container - grid item */}
-          <div
-            style={{ backgroundImage: `url(${WeatherImg})` }}
-            className="shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto mystyle-div"
-          >
-            <div>
-              {/* Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
-                </span>
-                <div className="pt-8 text-center">
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* 1 Project container - grid item */}
-          <div
-            style={{ backgroundImage: `url(${WeatherImg})` }}
-            className="shaddow-lg shaddow-[#040c16] group container rounded-md flex justify-center items-center mx-auto mystyle-div"
-          >
-            <div>
-              {/* Hover effects */}
-              <div className="opacity-0 group-hover:opacity-100">
-                <span className="text-2xl font-bold text-white tracking-wider">
-                  React JS Application
-                </span>
-                <div className="pt-8 text-center">
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Demo
-                    </button>
-                  </a>
-                  <a href="/">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                      Code
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* 6 card containers - grid items */}
+          {cardProps.map((card) => (
+            <Card {...card} />
+          ))}
         </div>
       </div>
     </div>
