@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.97cc5acd.css",
-    "main.js": "/my-portfolio-react/static/js/main.1fccd674.js",
+    "main.css": "/my-portfolio-react/static/css/main.e40b4556.css",
+    "main.js": "/my-portfolio-react/static/js/main.1787b8bb.js",
     "static/media/POT-login.png": "/my-portfolio-react/static/media/POT-login.5ceb9708dcd0793d06ce.png",
-    "static/media/dancingHouse.jpg": "/my-portfolio-react/static/media/dancingHouse.b983b7573cff3279b417.jpg",
     "static/media/planet.gif": "/my-portfolio-react/static/media/planet.c3c56f7dc07d1e7620da.gif",
     "static/media/weather-dash.png": "/my-portfolio-react/static/media/weather-dash.cb3667fff05e6812c71d.png",
     "static/media/planner-mockup.png": "/my-portfolio-react/static/media/planner-mockup.d7345b6cb861370e77b5.png",
+    "static/media/withu.png": "/my-portfolio-react/static/media/withu.18fcd9cad10a41fbae96.png",
     "static/media/tech-blog-dashboard.png": "/my-portfolio-react/static/media/tech-blog-dashboard.6f1f5632bf7da77c5647.png",
-    "static/media/note-taker-dashboard.png": "/my-portfolio-react/static/media/note-taker-dashboard.a4bf1b040cd075c80ef3.png",
+    "static/media/react.png": "/my-portfolio-react/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/my-portfolio-react/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/jm-logo.png": "/my-portfolio-react/static/media/jm-logo.12a9911a029f73c293b4.png",
+    "static/media/html.png": "/my-portfolio-react/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/my-portfolio-react/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/my-portfolio-react/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/my-portfolio-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/my-portfolio-react/index.html",
-    "main.97cc5acd.css.map": "/my-portfolio-react/static/css/main.97cc5acd.css.map",
-    "main.1fccd674.js.map": "/my-portfolio-react/static/js/main.1fccd674.js.map"
+    "main.e40b4556.css.map": "/my-portfolio-react/static/css/main.e40b4556.css.map",
+    "main.1787b8bb.js.map": "/my-portfolio-react/static/js/main.1787b8bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.97cc5acd.css",
-    "static/js/main.1fccd674.js"
+    "static/css/main.e40b4556.css",
+    "static/js/main.1787b8bb.js"
   ]
 }
