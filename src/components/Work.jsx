@@ -10,18 +10,18 @@ import WithUImg from "../assets/withu.png";
 
 const cardProps = [
   {
-    hrefWeb: "https://intense-lowlands-65258.herokuapp.com/",
-    hrefGit: "https://github.com/JenBerlin/Pack-On-Track/tree/dev",
-    cardImg: POTImg,
-    imgAlt: "pack on track homepage",
-    projectType: "Bootstrap CSS, JS, Express.js, Sequelize, MySQL",
-  },
-  {
     hrefWeb: "https://jitasek.github.io/weather-dashboard-app/",
     hrefGit: "https://github.com/jitasek/weather-dashboard-app",
     cardImg: WeatherImg,
     imgAlt: "weather dashboard page",
     projectType: "Bootstrap CSS, jQuery, JS, Server-Side API",
+  },
+  {
+    // hrefWeb: "https://intense-lowlands-65258.herokuapp.com/",
+    hrefGit: "https://github.com/JenBerlin/Pack-On-Track/tree/dev",
+    cardImg: POTImg,
+    imgAlt: "pack on track homepage",
+    projectType: "Bootstrap CSS, JS, Express.js, Sequelize, MySQL",
   },
   {
     hrefWeb: "https://jitasek.github.io/day-planner/",
@@ -38,7 +38,7 @@ const cardProps = [
     projectType: "Bulma CSS, JS, jQuery, local storage ",
   },
   {
-    hrefWeb: "https://aqueous-tundra-23493.herokuapp.com/",
+    // hrefWeb: "https://aqueous-tundra-23493.herokuapp.com/",
     hrefGit: "https://github.com/jitasek/tech-blog",
     cardImg: TechBlogImg,
     imgAlt: "tech blog dashboard",
@@ -53,7 +53,7 @@ const cardProps = [
   //     projectType: "Express.js, npm, fs, uuid, API",
   //   },
   {
-    hrefWeb: "https://mysterious-springs-56819.herokuapp.com/",
+    // hrefWeb: "https://mysterious-springs-56819.herokuapp.com/",
     hrefGit: "https://github.com/Amir-Fard2025/WithU",
     cardImg: WithUImg,
     imgAlt: "with u app homepage",

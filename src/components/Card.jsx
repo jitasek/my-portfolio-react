@@ -13,11 +13,12 @@ const Card = ({ hrefWeb, hrefGit, cardImg, projectType }) => {
             {projectType}
           </span>
           <div className="pt-8 text-center">
+            {hrefWeb ? 
             <a href={hrefWeb}>
               <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                 Demo
               </button>
-            </a>
+            </a>  : null }
             <a href={hrefGit}>
               <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                 Code
