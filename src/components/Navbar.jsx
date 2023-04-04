@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/jm-logo.png";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -125,8 +125,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-[#333333]"
-              href="Jitka-Moreira_web_dev.pdf"
-              download="Jitka-Moreira_web_dev.pdf"
+              href="jitka-moreira-web-dev.pdf"
+              download="jitka-moreira-web-dev.pdf"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
